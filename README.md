@@ -44,6 +44,7 @@ Na geração de relatório foi utilizado o framework allure report, para geraç�
 https://allurereport.org/docs/install/
 (adicione a pasta bin ao path do sistema)
 
+## Localmente no PC
 Com o mesmo instalado e configurado, após uma execução dos tests basta acessar a raiz do projeto no terminal e rodar o comando:
 
 ```
@@ -51,6 +52,25 @@ allure serve allure-results
 ```
 
 O servidor do allure será levantado, a pasta allure-results ser gerada e o relatório será aberto automaticamente como no exemplo abaixo.
+
+## Usando o Github Actions
+
+Para visualizar:
+Vá até a aba Actions no seu repositório.
+
+Clique na execução do workflow.
+
+Na seção Artifacts, baixe o allure-results.
+
+<img width="1516" height="679" alt="Image" src="https://github.com/user-attachments/assets/68536b08-d4fc-4d5e-aa94-044f8f783922" />
+
+Realize a extração do allure-results.zip
+
+Acesse o local pasta extraida e rode o comando
+
+```
+allure serve allure-results
+```
 
 <img width="1252" height="659" alt="Image" src="https://github.com/user-attachments/assets/2810fe0e-066e-4d59-bd79-846e091aea58" />
 
