@@ -6,6 +6,8 @@
 
 # Projeto Construído com:
 
+<img width="2357" height="550" alt="Image" src="https://github.com/user-attachments/assets/73fa43f6-b0b8-4d08-8a66-8aba5c56c5de" />
+
 Java 8 - https://www.oracle.com/br/java/technologies/javase/javase8u211-later-archive-downloads.html
 
 Maven - https://maven.apache.org/download.cgi
@@ -38,14 +40,14 @@ mvn test -  executa os tests
 ```
 
 
-## Geração de relatório de execução
+## Geração de relatório de execução 📃
 
 Na geração de relatório foi utilizado o framework allure report, para geração do mesmo é necessário instalar seu commandline basta seguir os passo do link a seguir :  
 
 https://allurereport.org/docs/install/
 (adicione a pasta bin ao path do sistema)
 
-## Localmente no PC
+## Localmente no PC 💻
 Com o mesmo instalado e configurado, após uma execução dos tests basta acessar a raiz do projeto no terminal e rodar o comando:
 
 ```
@@ -54,7 +56,7 @@ allure serve allure-results
 
 O servidor do allure será levantado, a pasta allure-results ser gerada e o relatório será aberto automaticamente como no exemplo abaixo.
 
-## Usando o Github Actions
+## Usando o Github Actions ☁️
 
 Para visualizar:
 Vá até a aba Actions no seu repositório.
