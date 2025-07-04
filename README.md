@@ -1,10 +1,9 @@
 
-# Teste Tecnico de Automação de API
+# Teste Técnico de Automação de API
 ![Image](https://github.com/user-attachments/assets/37f07935-532c-478c-bc37-970b05d42d8a)
 
-## Este Projeto tem o intuito de implementar tests  automatizados para uma API de Raças de Cães e suas imagens.
+## Este Projeto tem como intuito a implementação de  testes automatizados para uma API de Raças de Cães e suas imagens.
 ![Image](https://github.com/user-attachments/assets/5da90a88-f422-407b-839a-d7e8412eff8b)
-
 
 # Projeto Construído com:
 
@@ -71,7 +70,7 @@ Na seção Artifacts, baixe o allure-results.
 
 Realize a extração do allure-results.zip
 
-Acesse o local pasta extraida e rode o comando
+Acesse o local onde a pasta foi extraida e rode o comando
 
 ```
 allure serve allure-results
