@@ -1,4 +1,4 @@
-![java_rest](https://gitlab.com/DaniloAlcantara/Java_RestAssured/-/raw/master/java_rest.jpg)
+![Image](https://github.com/user-attachments/assets/37f07935-532c-478c-bc37-970b05d42d8a)
 # Teste Tecnico de Automação de API
 ## Este Projeto tem o intuito de implementar tests  automatizados para uma API de Raças de Cães e suas imagens.
 
@@ -52,7 +52,7 @@ allure serve allure-results
 
 O servidor do allure será levantado, a pasta allure-results ser gerada e o relatório será aberto automaticamente como no exemplo abaixo.
 
-![relatorio_example](https://gitlab.com/DaniloAlcantara/Java_RestAssured/-/raw/master/relatorio%20example.png)
+<img width="1252" height="659" alt="Image" src="https://github.com/user-attachments/assets/2810fe0e-066e-4d59-bd79-846e091aea58" />
 
 
 
