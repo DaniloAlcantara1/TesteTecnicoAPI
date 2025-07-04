@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-04T17:55:14 BRT" name="Surefire suite" finished-at="2025-07-04T17:55:24 BRT" duration-ms="9868">
+    <groups>
+    </groups>
+    <test started-at="2025-07-04T17:55:14 BRT" name="Surefire test" finished-at="2025-07-04T17:55:24 BRT" duration-ms="9868">
+      <class name="tests.Images.RandomImageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.Images.RandomImageTest@706cb08]" started-at="2025-07-04T17:55:21 BRT" name="setup" finished-at="2025-07-04T17:55:21 BRT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testImageIsDifferentOnMultipleCalls()[pri:0, instance:tests.Images.RandomImageTest@706cb08]" started-at="2025-07-04T17:55:21 BRT" name="testImageIsDifferentOnMultipleCalls" finished-at="2025-07-04T17:55:22 BRT" duration-ms="945" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testImageIsDifferentOnMultipleCalls -->
+        <test-method signature="testImageUrlIsValid()[pri:0, instance:tests.Images.RandomImageTest@706cb08]" started-at="2025-07-04T17:55:22 BRT" name="testImageUrlIsValid" finished-at="2025-07-04T17:55:23 BRT" duration-ms="476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testImageUrlIsValid -->
+        <test-method signature="testRandomImageStatusCode()[pri:0, instance:tests.Images.RandomImageTest@706cb08]" started-at="2025-07-04T17:55:23 BRT" name="testRandomImageStatusCode" finished-at="2025-07-04T17:55:23 BRT" duration-ms="447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRandomImageStatusCode -->
+        <test-method signature="testRandomImageStructure()[pri:0, instance:tests.Images.RandomImageTest@706cb08]" started-at="2025-07-04T17:55:23 BRT" name="testRandomImageStructure" finished-at="2025-07-04T17:55:23 BRT" duration-ms="310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRandomImageStructure -->
+        <test-method signature="testResponseTime()[pri:0, instance:tests.Images.RandomImageTest@706cb08]" started-at="2025-07-04T17:55:23 BRT" name="testResponseTime" finished-at="2025-07-04T17:55:24 BRT" duration-ms="473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResponseTime -->
+      </class> <!-- tests.Images.RandomImageTest -->
+      <class name="tests.Images.BreedImagesTest">
+        <test-method signature="testAllImageUrlsAreValid()[pri:0, instance:tests.Images.BreedImagesTest@45792847]" started-at="2025-07-04T17:55:19 BRT" name="testAllImageUrlsAreValid" finished-at="2025-07-04T17:55:20 BRT" duration-ms="511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAllImageUrlsAreValid -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.Images.BreedImagesTest@45792847]" started-at="2025-07-04T17:55:19 BRT" name="setup" finished-at="2025-07-04T17:55:19 BRT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testInvalidBreedReturnsError()[pri:0, instance:tests.Images.BreedImagesTest@45792847]" started-at="2025-07-04T17:55:20 BRT" name="testInvalidBreedReturnsError" finished-at="2025-07-04T17:55:20 BRT" duration-ms="453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidBreedReturnsError -->
+        <test-method signature="testResponseTime()[pri:0, instance:tests.Images.BreedImagesTest@45792847]" started-at="2025-07-04T17:55:20 BRT" name="testResponseTime" finished-at="2025-07-04T17:55:21 BRT" duration-ms="474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResponseTime -->
+        <test-method signature="testValidBreedReturnsImages()[pri:0, instance:tests.Images.BreedImagesTest@45792847]" started-at="2025-07-04T17:55:21 BRT" name="testValidBreedReturnsImages" finished-at="2025-07-04T17:55:21 BRT" duration-ms="601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidBreedReturnsImages -->
+      </class> <!-- tests.Images.BreedImagesTest -->
+      <class name="tests.breeds.BreedsTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.breeds.BreedsTest@7c455e96]" started-at="2025-07-04T17:55:14 BRT" name="setup" finished-at="2025-07-04T17:55:15 BRT" duration-ms="683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testBreedListContainsKnownBreeds()[pri:0, instance:tests.breeds.BreedsTest@7c455e96]" started-at="2025-07-04T17:55:15 BRT" name="testBreedListContainsKnownBreeds" finished-at="2025-07-04T17:55:17 BRT" duration-ms="2784" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBreedListContainsKnownBreeds -->
+        <test-method signature="testResponseStructure()[pri:0, instance:tests.breeds.BreedsTest@7c455e96]" started-at="2025-07-04T17:55:18 BRT" name="testResponseStructure" finished-at="2025-07-04T17:55:18 BRT" duration-ms="505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResponseStructure -->
+        <test-method signature="testResponseTime()[pri:0, instance:tests.breeds.BreedsTest@7c455e96]" started-at="2025-07-04T17:55:18 BRT" name="testResponseTime" finished-at="2025-07-04T17:55:19 BRT" duration-ms="495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResponseTime -->
+        <test-method signature="testStatusCodeIs200()[pri:0, instance:tests.breeds.BreedsTest@7c455e96]" started-at="2025-07-04T17:55:19 BRT" name="testStatusCodeIs200" finished-at="2025-07-04T17:55:19 BRT" duration-ms="524" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStatusCodeIs200 -->
+      </class> <!-- tests.breeds.BreedsTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
