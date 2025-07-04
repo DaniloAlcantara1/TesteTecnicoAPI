@@ -56,7 +56,7 @@ allure serve allure-results
 
 O servidor do allure será levantado, a pasta allure-results ser gerada e o relatório será aberto automaticamente como no exemplo abaixo.
 
-## Usando o Github Actions ☁️
+## Usando o Github Actions 🚀
 
 Para visualizar:
 Vá até a aba Actions no seu repositório.
