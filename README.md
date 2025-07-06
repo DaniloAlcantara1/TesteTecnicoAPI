@@ -25,32 +25,32 @@ IntelliJ Idea - https://www.jetbrains.com/pt-br/idea/
 
 # Passos para configurar o Java no Windows: 
 
-# 1. Instalação do Java:
+## 1. Instalação do Java:
 Download: Acesse o site oficial do Java (Oracle) e baixe a versão adequada do JDK ou JRE para o seu sistema (32 ou 64 bits). 
 
 Instalação: Execute o arquivo baixado e siga as instruções do instalador. Se você precisar apenas executar aplicativos Java, o JRE é suficiente. Se você for desenvolver em Java, o JDK é recomendado. 
 
 Local de instalação: Anote o local de instalação do Java, pois você precisará dele para configurar as variáveis de ambiente. Geralmente, a instalação padrão é em "C:\Program Files\Java\jdk-versão" para o JDK ou "C:\Program Files\Java\jre-versão" para o JRE. 
 
-# 2. Configuração das variáveis de ambiente:
+## 2. Configuração das variáveis de ambiente:
 
-# JAVA_HOME:
+## JAVA_HOME:
 Abra o Painel de Controle > Sistema e Segurança > Sistema > Configurações avançadas do sistema. 
 Clique em "Variáveis de Ambiente". 
 Em "Variáveis do sistema", clique em "Novo". 
 Adicione uma nova variável chamada JAVA_HOME e defina o valor como o caminho da pasta "jdk" ou "jre" da instalação do Java. 
 
-# PATH:
+## PATH:
 Edite a variável PATH nas variáveis do sistema. 
 Adicione o caminho C:\Program Files\Java\jdk-versão\bin (ou C:\Program Files\Java\jre-versão\bin) ao final da variável PATH. 
 
-# Testando a instalação:
+## Testando a instalação:
 Abra um novo prompt de comando (cmd). 
 Digite java -version e verifique se a versão do Java instalada é exibida corretamente. Se sim a configuração foi bem sucedida
 
-## Instalar e configurar java no Linux
+# Instalar e configurar java no Linux
 
-# Instalação via Gerenciador de Pacotes (ex: Ubuntu/Debian):
+## Instalação via Gerenciador de Pacotes (ex: Ubuntu/Debian):
 
 Atualize o índice de pacotes:
 digite no terminal:
@@ -109,27 +109,28 @@ digite no terminal:
 
 Este comando exibirá a versão do Java instalada se a versão for exibida tudo foi instalado corretamente 
 
-## Maven
-# 1. Baixe o Maven:
+# Maven
+
+## 1. Baixe o Maven:
 Acesse o site oficial do Apache Maven ([Link: Apache Maven https://maven.apache.org/download.cgi]) e baixe a versão binária mais recente. 
 
-# 2. Descompacte o arquivo:
+## 2. Descompacte o arquivo:
 Localize o arquivo baixado e extraia-o para um diretório de sua escolha, por exemplo, C:\apache-maven ou /opt/maven. 
 
-# 3. Configure as variáveis de ambiente:
+## 3. Configure as variáveis de ambiente:
 
-# Windows:
+## Windows:
 Adicione a variável de ambiente MAVEN_HOME apontando para o diretório onde o Maven foi extraído, por exemplo, C:\apache-maven. 
 Adicione o diretório bin do Maven ao PATH do sistema, por exemplo, C:\apache-maven\bin. 
 
-# Linux/macOS:
+## Linux/macOS:
 Adicione a variável de ambiente MAVEN_HOME apontando para o diretório onde o Maven foi extraído, por exemplo, /opt/maven. 
 Adicione o diretório bin do Maven ao PATH do sistema, por exemplo, /opt/maven/bin. 
 
-# 4. Verifique a instalação:
+## 4. Verifique a instalação:
 Abra um novo terminal e execute o comando mvn -v. Uma saída detalhada com a versão do Maven e do Java instalados deve ser exibida, indicando que a instalação foi bem-sucedida. 
 
-## Clonar o projeto
+# Clonar o projeto
 
 Abra a pasta em que deseja clonar o projeto execute o comando com git bash ou algum outro  terminal que possua git integrado:
 
@@ -138,7 +139,7 @@ git clone <url http ou ssh do projeto git>
 ```
 
 
-## Executando o projeto
+# Executando o projeto
 
 Acesse a  pasta do projeto no terminal execute os comandos abaixo para limpar, compilar e executar todos os tests. 
 ```sh
@@ -148,7 +149,7 @@ mvn test -  executa os tests
 ```
 
 
-## Geração de relatório de execução 📃
+# Geração de relatório de execução 📃
 
 Na geração de relatório foi utilizado o framework allure report, para geração do mesmo é necessário instalar seu commandline basta seguir os passo do link a seguir :  
 
