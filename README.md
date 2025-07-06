@@ -23,7 +23,7 @@ IntelliJ Idea - https://www.jetbrains.com/pt-br/idea/
 
 # Configurar o Ambiente Java:
 
-# Passos para configurar o Java no Windows: 
+# No Windows: 
 
 ## 1. Instalação do Java:
 Download: Acesse o site oficial do Java (Oracle) e baixe a versão adequada do JDK ou JRE para o seu sistema (32 ou 64 bits). 
@@ -48,7 +48,7 @@ Adicione o caminho C:\Program Files\Java\jdk-versão\bin (ou C:\Program Files\Ja
 Abra um novo prompt de comando (cmd). 
 Digite java -version e verifique se a versão do Java instalada é exibida corretamente. Se sim a configuração foi bem sucedida
 
-# Instalar e configurar java no Linux
+# No Linux
 
 ## Instalação via Gerenciador de Pacotes (ex: Ubuntu/Debian):
 
