@@ -21,7 +21,7 @@ Allure - https://docs.qameta.io/allure/
 
 IntelliJ Idea - https://www.jetbrains.com/pt-br/idea/
 
-# configurar ambiente java
+# Configurar o Ambiente Java:
 
 # Passos para configurar o Java no Windows: 
 
@@ -70,6 +70,7 @@ digite no terminal:
 ```
 
 Para instalar o JRE (Java Runtime Environment): 
+
 digite no terminal:
 
 ```
@@ -78,6 +79,7 @@ digite no terminal:
 
 Configure as variáveis de ambiente:
 Edite o arquivo .bashrc ou .zshrc (dependendo do seu shell): 
+
 digite no terminal:
 
 ```
@@ -86,7 +88,8 @@ digite no terminal:
 ```
 
 Adicione as seguintes linhas (ajuste o caminho conforme a instalação):
-digite no terminal:
+
+Altere no Arquivo:
 
 ```
 export JAVA_HOME=/opt/java
