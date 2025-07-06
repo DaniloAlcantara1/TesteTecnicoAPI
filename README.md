@@ -21,7 +21,7 @@ Allure - https://docs.qameta.io/allure/
 
 IntelliJ Idea - https://www.jetbrains.com/pt-br/idea/
 
-## configurar ambiente java
+# configurar ambiente java
 
 # Passos para configurar o Java no Windows: 
 
