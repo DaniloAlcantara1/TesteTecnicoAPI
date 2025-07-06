@@ -76,6 +76,30 @@ digite no terminal:
         sudo apt install default-jre
 ```
 
+Configure as variáveis de ambiente:
+Edite o arquivo .bashrc ou .zshrc (dependendo do seu shell): 
+digite no terminal:
+
+```
+
+        nano ~/.bashrc
+```
+
+Adicione as seguintes linhas (ajuste o caminho conforme a instalação):
+digite no terminal:
+
+```
+export JAVA_HOME=/opt/java
+export PATH=$JAVA_HOME/bin:$PATH
+
+```
+
+Salve e aplique as alterações.
+digite no terminal:
+```
+        source ~/.bashrc
+```
+
 Verifique a instalação:
 digite no terminal:
 
